@@ -14,8 +14,10 @@ void kmain()
 		//a = atoi("12");
 		//puts(itoa(a,10));
 		//clrscr();
-		//delay(10);	
-		puts("Hello world");
+		//delay(10);
+
+		puts(itoa(1234567811,10));
+
 		//newline();
 		//puts(12222);
 		//newline();

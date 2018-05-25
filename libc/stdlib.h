@@ -2,6 +2,7 @@
 #define _STDLIB_H_
 
 char* itoa(int val, int base);
+char* lltoa(long long val, int base);
 int atoi(ap);
 
 #endif
