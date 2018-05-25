@@ -1,6 +1,7 @@
 #include "stdio.h"
 #include "time.h"
 #include "stdint.h"
+#include "math.h"
 
 
 
@@ -16,10 +17,11 @@ void kmain()
 		//puts(itoa(a,10));
 		//clrscr();
 		//delay(10);
-		uint32_t sss=12322;
+		double sss=122.0;
 		//puts(itoa(1234567811,10));
 
 		//newline();
-		puts(itoa(sss,10));
+		char buf[100];
+		puts(ftoa(sqrt(sss), buf, 10));
 		//newline();
 	}
