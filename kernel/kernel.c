@@ -1,5 +1,6 @@
 #include "stdio.h"
 #include "time.h"
+#include "stdint.h"
 
 
 
@@ -15,10 +16,10 @@ void kmain()
 		//puts(itoa(a,10));
 		//clrscr();
 		//delay(10);
-
-		puts(itoa(1234567811,10));
+		uint32_t sss=12322;
+		//puts(itoa(1234567811,10));
 
 		//newline();
-		//puts(12222);
+		puts(itoa(sss,10));
 		//newline();
 	}
